@@ -6,5 +6,5 @@ app = Flask(_name_)
 def index():
   return "Congratulations, its a web app!"
 
-#if __name__ == "__main__" :
- # app.return(host="127.0.0.1", port=8080, debug=True)
+if __name__ == "__main__" :
+  app.return(host="127.0.0.1", port=8080, debug=True)
